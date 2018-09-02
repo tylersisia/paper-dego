@@ -96,6 +96,87 @@ body {
   margin-bottom: 5px;
 }
 
+
+
+.folding-logo img {
+  height: 21px;
+  width: auto;
+}
+ .folding-logo-text {
+   position: absolute;
+   text-align: center;
+   left: 5px;
+   top: 114px;
+   width: 75px;
+   height: 165px;
+   font-size: 7px;
+   color: #193039;
+   font-weight: 500;
+   letter-spacing: 0.05em;
+}
+ .folding-logo-text ul {
+  list-style: none;
+}
+ .folding-logo-text ul li {
+  margin-bottom: 5px;
+}
+
+
+.folding2-logo img {
+  height: 19px;
+  width: auto;
+}
+ .folding2-logo-text {
+  position: absolute;
+  text-align: center;
+  right: 160px;
+  top: 67px;
+  width: 75px;
+  height: 165px;
+  font-size: 4px;
+  color: #193039;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  webkit-transform: rotate(6deg);
+  -ms-transform: skewY(35deg);
+  -webkit-transform: skewY(35deg);
+  transform: skewY(35deg);
+}
+ .folding2-logo-text ul {
+  list-style: none;
+}
+ .folding2-logo-text ul li {
+  margin-bottom: 5px;
+}
+
+
+.folding3-logo img {
+  height: 21px;
+  width: auto;
+}
+ .folding3-logo-text {
+  position: absolute;
+  text-align: center;
+  right: 66px;
+  top: 85px;
+  width: 75px;
+  height: 165px;
+  font-size: 7px;
+  color: #193039;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  webkit-transform: rotate(6deg);
+  transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+}
+ .folding3-logo-text ul {
+  list-style: none;
+}
+ .folding3-logo-text ul li {
+  margin-bottom: 5px;
+}
+
 .amount-added-text, .date-text, .note-text {
   position: absolute;
   height: 20px;
