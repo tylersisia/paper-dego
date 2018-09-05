@@ -52,7 +52,15 @@
   <div class="buttons">
     <button type="button" onclick="js:genwallet(null)">Generate new</button>
     <button type="button" onClick="window.print()">Print</button>
-
+    <center>
+      <button class="btn btn-default" onclick="js:show_restore();" type="button" value="restore keys from seed phrase">Restore keys from seed phrase</button>
+    </center>
+    <div id="restore" style="display: none;">
+      <input id="seed_phrase" type="text" style="width:33%;" value="" placeholder="Enter your seed phrase words here."/><br /><br />
+      <center>
+        <button class="btn btn-default" onclick="js:restore_keys(null);" type="button" value="Restore keys">Restore Keys</button>
+      </center>
+    </div>
   </div>
   <div class="instruction">
     <img src="instructions.png"/>

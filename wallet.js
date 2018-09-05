@@ -16,11 +16,17 @@ var restore_keys = function(lang) {
   var seed_phrase = document.getElementById("seed_phrase").value;
   var seed = mn_decode(seed_phrase);
   var keys = cnUtil.create_address(seed);
-   
+
   address_widget.innerHTML = keys.public_addr;
   mnemonic_widget.innerHTML = seed_phrase;
   spend_key_widget.innerHTML = keys.spend.sec;
   view_key_widget.innerHTML = keys.view.sec;
+};
+
+var show_restore = function() {
+  document.getElementById("restore").style.display = "block";
+  document.getElementById("generate").style.display = "none";
+  document.getElementById("step2").style.display = "none";
 };
 
 var genwallet = function(lang) {

@@ -186,6 +186,8 @@ body {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+.amount-added-text, .date-text {
   text-transform: uppercase;
 }
 
@@ -205,6 +207,7 @@ body {
   left: 425px;
   top: 125px;
   width: 200px;
+  font-style: italic;
 }
 
 .view_key_widget, .qr-view {
@@ -279,7 +282,7 @@ button:hover {
     transform: rotate(90deg);
   }
   .wallet {margin: 0;}
-  button {
+  .buttons {
     display: none;
   }
 }
