@@ -1625,10 +1625,10 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 var salt = '4721283fee2db41e1f2fc50ea9f6d783'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
 var config = {
     coinUnitPlaces: 12,
-    coinSymbol: 'DEGO',
-    coinName: 'DeroGold',
-    coinUriPrefix: 'derogold:',
-    addressPrefix: 8411
+    coinSymbol: 'CMRA',
+    coinName: 'Chimera',
+    coinUriPrefix: 'chimera:',
+    addressPrefix: 4141013
 };
 var cnUtil = (function(initConfig) {
     //var config = $.extend({}, initConfig);
